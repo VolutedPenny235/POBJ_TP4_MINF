@@ -79,7 +79,7 @@ namespace AppCsTp2Pwm
             }
             else //fermeture
             {
-
+                serialPort1.Close();
                 btOpenClose.Text = "Open";
                 gbTx.Enabled = false;
                 gbRx.Enabled = false;
